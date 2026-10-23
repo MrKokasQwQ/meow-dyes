@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "meowdyes",
+  "version": "${version}",
+  "name": "Meow Dyes",
+  "description": "Fake Hypixel SkyBlock dyes: every block you mine (and every Pristine proc) has a tiny chance to drop one, with a drop animation, chat message and a stats screen (/md).",
+  "license": "MIT",
+  "icon": "assets/meowdyes/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["meowdyes.mc.MeowDyesClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~26.1-",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
